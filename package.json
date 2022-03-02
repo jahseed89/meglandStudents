@@ -1,0 +1,14 @@
+{
+  "name": "megland",
+  "version": "1.0.0",
+  "description": "students ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-sass sass/styles.scss css/styles.css -w"
+  },
+  "author": "sam",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

@@ -1,0 +1,106 @@
+@import "variables";
+@import "utilities";
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: $bg-color;
+  background-image: url("https://www.facebook.com/images/groups/groups-default-cover-photo-2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Kumbh Sans;
+  max-width: 1200px;
+  font-size: map-get($fontSize, bgFont);
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+}
+
+.card-container {
+  @include flexCenter();
+  text-align: center;
+
+  .description {
+    background-color: $card-color;
+    color: $txt-color;
+    width: 450px;
+    height: 99vh;
+    border-radius: 15px;
+    border: 2px solid $bg-color;
+
+    h3 {
+      margin: 15px;
+    }
+
+    .student__detials {
+      text-align: center;
+      .picture__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid #fff;
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        object-fit: cover;
+      }
+    }
+
+    .location__container {
+      margin-top: 20px;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      margin-bottom: 20px;
+
+      button {
+        padding: 9px 33px;
+        border-radius: 30px;
+        border: none;
+        color: $txt-color;
+        font-size: map-get($fontSize, btn);
+        background-color: $bg-color;
+        color: #fff;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:focus {
+          background: $bg-color;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .description {
+    width: 100%;
+    height: 95vh;
+    background-color: $txt-color;
+  }
+}
