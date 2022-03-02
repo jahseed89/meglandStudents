@@ -5,6 +5,10 @@
   margin: 0px;
   box-sizing: border-box; }
 
+@media (max-width: 800px) {
+  .description {
+    width: 90%; } }
+
 body {
   background-color: #f2c01c;
   background-image: url("https://www.facebook.com/images/groups/groups-default-cover-photo-2x.png");
