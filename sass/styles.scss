@@ -17,6 +17,9 @@ body {
   font-size: map-get($fontSize, bgFont);
   margin: 0 auto;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -35,10 +38,10 @@ img {
 
 .card-container {
   @include flexCenter();
-  text-align: center;
   width: 90%;
 
   .description {
+    text-align: center;
     background-color: $card-color;
     color: $txt-color;
     width: 400px;
