@@ -34,7 +34,21 @@ let students = [
         relationship: "Maried",
         number: "+233263559969",
         location: "Ghana",
-        picture: "https://scontent.flos10-2.fna.fbcdn.net/v/t39.30808-6/248657398_3967061136728202_7496735754295748288_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGf6CH7u8M7Zu-wETxIk2-0dU9zbsdjuZp1T3Nux2O5mo-EVfqbJMrZ_J_e9aHGUP-4Sy7SUbUBDjfzMKy5Zgpk&_nc_ohc=vjejIVipXwAAX-JRBXk&_nc_oc=AQlNRkNzkfS_x_GfP_lwRPAxBJIxNClIoX5ahVRn8S50T6gWYdAPZv1nlU5XQYa6Zfg&_nc_ht=scontent.flos10-2.fna&oh=00_AT-KqG8tbJUCcWPWV68QJ8dm9hiI3L4r0xUSgg-JQiB9kA&oe=6222E466"
+        picture: "https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/272524420_4651353421586188_4301797905470027045_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeF3wFgFFQkm3vFcv_p4rcEb3NWKS8I6t4Lc1YpLwjq3ggTfQXrHna_q6I8C_-QN7YCFGBbRuly6QGlSE7WvaxQF&_nc_ohc=tnp9jFXtEN0AX-FbHuh&_nc_ht=scontent-los2-1.xx&oh=00_AT_DbiqFPuBsmRjfRbgiGt45F9boMjmR3C3bX6LC7qnXCg&oe=6225DB39"
+    },
+    {
+        name: "Emmanuel Emugan",
+        relationship: "Single",
+        number: "XXXXXXXXXXX",
+        location: "Nigeria",
+        picture: "https://scontent-los2-1.xx.fbcdn.net/v/t31.18172-8/24879579_1612708428793247_8716334171425672640_o.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEdHZtSR1j-cJ9USeUC8TOCx06TVtZhFM3HTpNW1mEUzeh3__J_wheoCNRWwYZTy2lkhW9F748kZdAsWaiKaNYA&_nc_ohc=m495Sohe7HsAX8TtDih&_nc_ht=scontent-los2-1.xx&oh=00_AT_QVqD23E1HOWkxXSVv3ad29j_Yz-XcKR6VkJshA1Nkvw&oe=624684DD"
+    },
+    {
+        name: "Gideon Philonis",
+        relationship: "Single",
+        number: "XXXXXXXXXXX",
+        location: "Nigeria",
+        picture: "https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/248657398_3967061136728202_7496735754295748288_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGf6CH7u8M7Zu-wETxIk2-0dU9zbsdjuZp1T3Nux2O5mo-EVfqbJMrZ_J_e9aHGUP-4Sy7SUbUBDjfzMKy5Zgpk&_nc_ohc=ZwhI4IL1LbwAX_KcvNG&_nc_oc=AQmGmrr_GdaDv6Qsp8da8UQe1ohyg1RIV8TrlMX0ATo_km1FlrCDK4assHsb-SJ2UYU&_nc_ht=scontent-los2-1.xx&oh=00_AT80EHe2Zd_4kGrqYXAb3YqcWObWTupMgC9A8-ruSK9Gtg&oe=6224DEA6"
     },
     {
         name: "Stella Solomon",
@@ -69,14 +83,14 @@ let students = [
         relationship: "Single",
         number: "XXXXXXXXX",
         location: "Lagos",
-        picture: "https://scontent.flos10-1.fna.fbcdn.net/v/t1.6435-9/70995272_168464380995629_3754766852337696768_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeG4ebqDJHSXi0tEy3qO8piRp_E63PqmLsmn8Trc-qYuyck2dKPta7d2UlNOO6a8KaL3y_2LVdXq7Y-hCVIAjoLh&_nc_ohc=kE6Bs33U6FUAX8vqZph&_nc_ht=scontent.flos10-1.fna&oh=00_AT8AkeaWIerF4O0g7UYtFjG-2nuq3NlStFJs7e_SMA-7oQ&oe=62467538"
+        picture: "https://scontent.flos10-1.fna.fbcdn.net/v/t1.6435-9/199835982_526250628550334_8681159686872795325_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeEwn2EhYGXJqELSUdC0rZ12Sqc5eQ-mpbxKpzl5D6alvDcx34MzyeC1ydJj2o5oJafP2c6473fY84iIpGXpu2xU&_nc_ohc=A7BsUHK3RA0AX-W8BTm&_nc_ht=scontent.flos10-1.fna&oh=00_AT_7xH4gkK-duWw07PPxY7hxi04aycQpmvDvGT1Fy0AvJw&oe=6247C93F"
      },
     {
         name: "Samson Jahseed Ocran",
         relationship: "Single",
         number: "+2348149835668",
         location: "Lagos",
-        picture: "https://scontent.flos10-1.fna.fbcdn.net/v/t1.6435-9/82024440_1336679336514943_1702123302073401344_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=174925&_nc_eui2=AeFIeLWiuvA2u9_FMo5QkDMlzIAl9dHDY-bMgCX10cNj5mUMiFfj4jYZZurHMM9iPHb-Cnzii8x_zrb-AwMmYOFh&_nc_ohc=-LgGgw8s-ksAX_dsTpv&_nc_ht=scontent.flos10-1.fna&oh=00_AT-m3jmMiH4-n45KKl9sNdOEu8Asu0o_wLXqZxYN72ldXg&oe=62452531"
+        picture: "https://scontent.flos10-2.fna.fbcdn.net/v/t39.30808-6/236774529_1806784916171047_6176623280144267702_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=0debeb&_nc_eui2=AeGCiXKdMIMUbXOrq8dlyjkBVIFLzDQAAXNUgUvMNAABcyz6YmQpmXHSe4GsNngnXFEPM11y6G6JcHHC_wqWSKwg&_nc_ohc=DizcjMu5jnkAX884HQ5&_nc_ht=scontent.flos10-2.fna&oh=00_AT_vL0tLXWVVCEQa5w4FGEY4grRnJrq11L3cN7xAHFX_XA&oe=622653F2"
      },
     {
         name: "Thomas Ogbor",
@@ -125,7 +139,7 @@ let students = [
         relationship: "######",
         number: "XXXXXXXXX",
         location: "Lagos",
-        picture: "https://scontent.flos10-2.fna.fbcdn.net/v/t1.18169-9/1379321_473392619447513_1401741588_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=de6eea&_nc_eui2=AeGW7JBtrUmCQVGN1JY4HgIl0zelO8UebRbTN6U7xR5tFuIvuwBQXRZDcL2kWDEk2eBT-Us6b92LTuiXZXv6fafX&_nc_ohc=GBYGwZ5nNeMAX-KCwdd&_nc_ht=scontent.flos10-2.fna&oh=00_AT9ScavtAyJETjn_KtQ28hWGhoqedXs3nUmJcIXqQsE6ug&oe=624465F6"
+        picture: "https://scontent.flos10-2.fna.fbcdn.net/v/t1.18169-9/1931307_905226659597438_7408001066876036882_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_eui2=AeGD-L6LBWVJaqAaKiYUnKg1A8pTwl1r-TUDylPCXWv5NShnvRMd4BYKAeTR0VhajswLXh8wJXcUTX65tyswCU9-&_nc_ohc=_INDrUi9NCkAX8ekovd&tn=EVW5t-fg92ldgEtV&_nc_ht=scontent.flos10-2.fna&oh=00_AT8D5FVBQvf1nLofsFEb5xrG1k1l2LP90AAzzHMtt42CAg&oe=62465D00"
     }
     
     ]
