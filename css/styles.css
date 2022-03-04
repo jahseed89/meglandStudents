@@ -65,7 +65,8 @@ img {
     .card-container .description .btn-container {
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      margin-top: 10px; }
       .card-container .description .btn-container button {
         padding: 9px 33px;
         border-radius: 30px;
@@ -74,8 +75,10 @@ img {
         font-size: 10px;
         background-color: #ffdb42;
         color: #fff;
-        margin-top: 10px; }
+        font-weight: bolder; }
         .card-container .description .btn-container button:hover {
-          cursor: pointer; }
+          cursor: pointer;
+          background-color: #ff5d00;
+          color: #fff; }
         .card-container .description .btn-container button:focus {
           background: #ffdb42; }
