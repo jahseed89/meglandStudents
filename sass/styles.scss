@@ -79,6 +79,7 @@ img {
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-top: 10px;
 
       button {
         padding: 9px 33px;
@@ -88,10 +89,12 @@ img {
         font-size: map-get($fontSize, btn);
         background-color: $bg-color;
         color: #fff;
-        margin-top: 10px;
+        font-weight: bolder;
 
         &:hover {
           cursor: pointer;
+          background-color: #ff5d00;
+          color: #fff;
         }
 
         &:focus {
