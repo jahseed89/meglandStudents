@@ -3,7 +3,7 @@ let students = [
     {
         
         name: "Oladimeji Paul Roland",
-        relationship: "Maried",
+        relationship: "######",
         number: "08070995900",
         location: "Nigeria",
         picture: "https://scontent.flos10-1.fna.fbcdn.net/v/t39.30808-6/215679393_4163431630418493_6263016040345060304_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFJ9E_yuf1jCfjTS1rjamHpAxYjNrN6XHoDFiM2s3pceuYF6plk1R9uSBs6Jus2xq0HpKy594_y8nGB2nBmhhwK&_nc_ohc=-XqCCaEQmXoAX9l7C0o&_nc_ht=scontent.flos10-1.fna&oh=00_AT9s3Bu91e3bTQiMORdKmrghOBGda6jC84Kj3BCtfVSRXA&oe=62247CC1"
@@ -73,7 +73,7 @@ let students = [
     },
     {
         name: "Esther Nse",
-        relationship: "######",
+        relationship: "Maried",
         number: "XXXXXXXXX",
         location: "Lagos",
         picture: "https://scontent.flos10-1.fna.fbcdn.net/v/t1.6435-9/82360183_2692974254103795_4293339421790437376_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeH3S9uJmII7liHVjTnkTH0QDgu_mjF48j8OC7-aMXjyP1KENUAGoYkfR4NyO9YNRfEAOhiNNtoaRdz7GmhCgtg5&_nc_ohc=zfS6mSA7ZksAX9vAlBr&_nc_ht=scontent.flos10-1.fna&oh=00_AT9lmWzdNLeyWAsTtS7UCNcQKO29G-_y0UWSiyo_ID7Gcg&oe=6246C5C8"
@@ -101,7 +101,7 @@ let students = [
     },
     {
         name: "Gift Anthony",
-        relationship: "Maried",
+        relationship: "######",
         number: "XXXXXXXXXXX",
         location: "Lagos",
         picture: "https://scontent.flos10-1.fna.fbcdn.net/v/t1.6435-9/84189341_1870700263063698_274818129589174272_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeHI47gDAc9x4CBljKpkLog_7RnQ0vAPTentGdDS8A9N6dg6hc5IBLUmazue_DYm44ksvi0BZFn-RPHe181p-t9M&_nc_ohc=e54OgLQ5k7gAX8IsBVv&_nc_ht=scontent.flos10-1.fna&oh=00_AT9slm-0uMq4UOe5F-KUY3oQNbpZQixNTrPBYdfJVlYhKw&oe=624496BA"
