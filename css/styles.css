@@ -3,7 +3,8 @@
 ::after {
   padding: 0px;
   margin: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   background-color: #ffdb42;
@@ -17,68 +18,81 @@ body {
   overflow-x: hidden;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 img {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
 .container {
   width: 90%;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%; }
-  .card-container .description {
-    text-align: center;
-    background-color: #1877f2;
-    color: rgba(255, 255, 255, 0.871);
-    width: 400px;
-    height: fit-content;
-    padding: 10px;
-    border-radius: 15px;
-    border: 2px solid #ffdb42; }
-    .card-container .description h3 {
-      margin-bottom: 25px; }
-    .card-container .description .student__detials {
-      text-align: center; }
-      .card-container .description .student__detials .picture__container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 5px solid #fff;
-        width: 130px;
-        height: 130px;
-        border-radius: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        overflow: hidden; }
-    .card-container .description .location__container {
-      margin-top: 30px; }
-    .card-container .description .btn-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 10px; }
-      .card-container .description .btn-container button {
-        padding: 9px 33px;
-        border-radius: 30px;
-        border: none;
-        color: rgba(255, 255, 255, 0.871);
-        font-size: 10px;
-        background-color: #ffdb42;
-        color: #fff;
-        font-weight: bolder; }
-        .card-container .description .btn-container button:hover {
-          cursor: pointer;
-          background-color: #ff5d00;
-          color: #fff; }
-        .card-container .description .btn-container button:focus {
-          background: #ffdb42; }
+  width: 90%;
+}
+.card-container .description {
+  text-align: center;
+  background-color: #1877f2;
+  color: rgba(255, 255, 255, 0.871);
+  width: 400px;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #ffdb42;
+}
+.card-container .description h3 {
+  margin-bottom: 25px;
+}
+.card-container .description .student__detials {
+  text-align: center;
+}
+.card-container .description .student__detials .picture__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.card-container .description .location__container {
+  margin-top: 30px;
+}
+.card-container .description .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.card-container .description .btn-container button {
+  padding: 9px 33px;
+  border-radius: 30px;
+  border: none;
+  color: rgba(255, 255, 255, 0.871);
+  font-size: 10px;
+  background-color: #ffdb42;
+  color: #fff;
+  font-weight: bolder;
+}
+.card-container .description .btn-container button:hover {
+  cursor: pointer;
+  background-color: #ff5d00;
+  color: #fff;
+}
+.card-container .description .btn-container button:focus {
+  background: #ffdb42;
+}
