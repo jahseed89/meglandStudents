@@ -51,7 +51,7 @@ let students = [
     picture: "./images/hakim.jpg",
   },
   {
-    name: "Hanna Nnabwe",
+    name: "Hannah Nnabue",
     nickName: "Annabel",
     occupation: "********",
     hobbies: "********",
