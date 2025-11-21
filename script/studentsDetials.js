@@ -135,7 +135,7 @@ let students = [
   {
     name: "Ajiboye ibukun",
     nickName: "Highbeekay",
-    occupation: "*********",
+    occupation: "Entrepreneur",
     hobbies: " Dancing 💃, Singing 🎵 & Sleeping ",
     relationship: "Maried",
     number: "+234 813 407 4720",
