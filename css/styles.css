@@ -11,7 +11,7 @@ body {
   background-image: url("https://www.facebook.com/images/groups/groups-default-cover-photo-2x.png");
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   max-width: 1200px;
   font-size: 15px;
   margin: 0 auto;
@@ -60,6 +60,7 @@ img {
 }
 .card-container .description .student__detials {
   text-align: center;
+  padding-bottom: 10px;
 }
 .card-container .description .student__detials .picture__container {
   display: flex;
@@ -79,16 +80,59 @@ img {
 .spaces {
   margin: 10px 0;
 }
+
+.bnts-holder {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+#prevBtn,
+#nextBtn {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.18);
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 26px;
+  font-weight: 900;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+  /* nice glass effect */
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+#prevBtn:hover,
+#nextBtn:hover {
+  background-color: #ffdb42;
+  color: #1877f2;
+  border-color: #ffdb42;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* Tap/Click feedback */
+#prevBtn:active,
+#nextBtn:active {
+  transform: scale(0.9);
+  background-color: #ffb800;
+  color: #fff;
+}
 .card-container .description .btn-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
 }
 .card-container .description .btn-container button {
-  padding: 9px 33px;
+  padding: 12px 33px;
   border-radius: 30px;
-  border: none;
+  border: 2px solid #ffffff;
   color: rgba(255, 255, 255, 0.871);
   font-size: 10px;
   background-color: #ffdb42;
