@@ -35,8 +35,6 @@ document.getElementById("prevBtn").onclick = () => {
   loadStudent();
 };
 
-
-
 // ----- 5. LOAD BUTTON (random student) -----
 document.getElementById("btn").onclick = () => {
   index = Math.floor(Math.random() * students.length);
