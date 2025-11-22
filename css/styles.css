@@ -7,8 +7,8 @@
 }
 
 body {
-  background-color: #ffdb42;
-  background-image: url("https://www.facebook.com/images/groups/groups-default-cover-photo-2x.png");
+  /* background-image: url("https://www.facebook.com/images/groups/groups-default-cover-photo-2x.png"); */
+  background-color: #B00020;
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Inter", sans-serif;
@@ -94,6 +94,46 @@ img {
   justify-content: space-between;
   padding: 0 1rem;
 }
+/* --- Search Input Styling --- */
+#search {
+  width: 80%;
+  padding: 12px 18px;
+  font-size: 15px;
+  border: 2px solid #dcdcdc;
+  border-radius: 30px;
+  outline: none;
+  background: #f7f7f7;
+  transition: all 0.25s ease;
+  font-family: "Inter", sans-serif;
+  margin-top: 10px;
+}
+
+/* Hover effect */
+#search:hover {
+  background: #ffffff;
+  border-color: #bcbcbc;
+}
+
+/* Focus effect */
+#search:focus {
+  border-color: #007bff;
+  background: #ffffff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+/* Placeholder style */
+#search::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+/* Optional: Center container for clean layout */
+.student__detials div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 #prevBtn,
 #nextBtn {
   width: 40px;

@@ -1,10 +1,13 @@
 // ----- 1. START WITH A RANDOM STUDENT -----
 let index = Math.floor(Math.random() * students.length);
 
+// This array will change when searching
+let filteredList = students;
+
 // ----- 2. LOAD STUDENT FUNCTION -----
 function loadStudent() {
 
-  const currentStudent = students[index];
+  const currentStudent = filteredList[index];
 
   if (!currentStudent) return;
 
@@ -21,22 +24,57 @@ function loadStudent() {
 // Load random student on first page load
 document.addEventListener("DOMContentLoaded", loadStudent);
 
-// ----- 3. NEXT BUTTON (<button id="nextBtn"> → ) -----
+// ----- 3. NEXT BUTTON -----
 document.getElementById("nextBtn").onclick = () => {
+  if (filteredList.length === 0) return;
   index++;
-  if (index >= students.length) index = 0;   // wrap to first student
+  if (index >= filteredList.length) index = 0;  
   loadStudent();
 };
 
-// ----- 4. PREVIOUS BUTTON (<button id="prevBtn"> ← ) -----
+// ----- 4. PREVIOUS BUTTON -----
 document.getElementById("prevBtn").onclick = () => {
+  if (filteredList.length === 0) return;
   index--;
-  if (index < 0) index = students.length - 1;  // wrap to last student
+  if (index < 0) index = filteredList.length - 1; 
   loadStudent();
 };
 
-// ----- 5. LOAD BUTTON (random student) -----
+// ----- 5. LOAD BUTTON (RANDOM STUDENT) -----
 document.getElementById("btn").onclick = () => {
+  filteredList = students;     // reset filtered list
   index = Math.floor(Math.random() * students.length);
   loadStudent();
 };
+
+// ------------------------------------------------------------------
+// ----- 6. SEARCH BY NAME (NEW FEATURE YOU WANTED) -----
+// ------------------------------------------------------------------
+document.getElementById("search").addEventListener("input", function () {
+  
+  const searchValue = this.value.toLowerCase().trim();
+
+  // Filter students by name or nickname
+  filteredList = students.filter(student =>
+    student.name.toLowerCase().includes(searchValue) ||
+    student.nickName.toLowerCase().includes(searchValue)
+  );
+
+  // If found, show first result
+  if (filteredList.length > 0) {
+    index = 0;
+    loadStudent();
+  } 
+  
+  // If none found, show message
+  else {
+    document.getElementById("picture").innerHTML = "";
+    document.getElementById("name").innerText = "No student found";
+    document.getElementById("nickName").innerText = "";
+    document.getElementById("occupation").innerText = "";
+    document.getElementById("marital").innerText = "";
+    document.getElementById("hobbies").innerText = "";
+    document.getElementById("phoneNum").innerText = "";
+    document.getElementById("locate").innerText = "";
+  }
+});
