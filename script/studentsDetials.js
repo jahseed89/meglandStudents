@@ -219,7 +219,7 @@ let students = [
     hobbies: " Dancing, meeting people & Swimming",
     relationship: "Single",
     number: "+2348069781215",
-    location: "Nigeria",
+    location: "Lagos",
     picture: "./images/olabisi.png",
   },
   {
