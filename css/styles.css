@@ -8,7 +8,8 @@
 
 body {
   /* background-image: url("https://www.facebook.com/images/groups/groups-default-cover-photo-2x.png"); */
-  background-color: #B00020;
+  /* background-image: url("../images/icon.jpg"); */
+  background-image: url("../images/bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Inter", sans-serif;
